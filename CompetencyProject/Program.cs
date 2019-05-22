@@ -14,9 +14,9 @@ namespace CompetencyProject
         static void Main()
         {
             // 1.
-            // URL: http://en.wikipedia.org/wiki/Main_Page
+            // URL: https://www.rtc.edu/
             WebClient w = new WebClient();
-            string s = w.DownloadString("http://en.wikipedia.org/wiki/Main_Page");
+            string s = w.DownloadString("https://www.rtc.edu/");
 
             // 2.
             foreach (LinkItem i in LinkFinder.Find(s))
